@@ -1,0 +1,471 @@
+/* style del Registro */
+
+body {
+  font-family: "Alice-Regular", Helvetica, sans-serif;
+  background: linear-gradient(180deg, rgb(157, 175, 191) 0%, rgb(240, 247, 253) 100%);
+}
+
+header .navbar {
+  background: linear-gradient(180deg, rgb(148, 175, 207) 49.5%, rgb(40, 87, 142) 100%);
+}
+
+header .navbar-brand {
+  color: #28578e;
+  font-size: 24px;
+}
+
+header .nav-link {
+  color: #fff !important;
+  font-size: 20px;
+}
+
+
+.registro-simple {
+  height: calc(100vh - 100px);
+}
+
+.card {
+  border-radius: 20px;
+  background-color: #d9d9d9;
+}
+
+.card-header {
+  background-color: transparent;
+  border-bottom: none;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.form-control {
+  border-radius: 10px;
+}
+
+.btn-primary {
+  background-color: #28578e;
+  border-color: #28578e;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.btn-secondary {
+  background-color: #d9d9d9;
+  border-color: #999;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-size: 20px;
+  
+  margin-top: 10px;
+  margin-left: 10px;
+} 
+.btn-sm {
+background-color: #28578e;
+border-color: #28578e;
+border-radius: 50px;
+padding: 5px 10px;
+font-size: 15px;
+}
+.btn-sm-secondary {
+background-color: #d9d9d9;
+border-color: #999;
+border-radius: 50px;
+padding: 5px 10px;
+font-size: 15px;
+color: #28578e;
+}
+
+/* style del navBar */
+
+.navbar {
+  background: linear-gradient(180deg, rgba(148, 175, 207, 1) 49.5%, rgba(40, 87, 142, 1) 100%);
+  font-family: "Alice-Regular", Helvetica;
+}
+
+.logoclinica {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.text-wrapper,
+.text-wrapper-2,
+.text-wrapper-3,
+.text-wrapper-4 {
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.text-wrapper,
+.text-wrapper-2 {
+  color: #ffffff;
+  font-size: 20px;
+  margin-top: -1px;
+}
+
+.text-wrapper-2 {
+  text-shadow: 0px 4px 4px #00000040;
+}
+
+.text-wrapper-3 {
+  color: #366693;
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+.text-wrapper-4 {
+  color: var(--color-de-letras);
+  font-size: 32px;
+  margin-left: 10px;
+  margin-right: auto;
+}
+
+/* style del login*/
+body {
+  font-family: "Alice-Regular", Helvetica, sans-serif;
+  background: linear-gradient(180deg, rgb(157, 175, 191) 0%, rgb(240, 247, 253) 100%);
+}
+
+.card {
+  border-radius: 20px;
+  background-color: #d9d9d9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.form-control {
+  border-radius: 10px;
+}
+/* style del index*/
+.pagina {
+display: flex;
+justify-content: center;
+background-color: #ffffff;
+}
+
+.contenido {
+width: 1366px;
+background: linear-gradient(180deg, rgb(157.78, 175.18, 191.25) 0%, rgb(240.18, 247.34, 253.94) 100%);
+}
+.sobre-nosotros {
+display: flex;
+padding: 20px;
+}
+
+.doc-image {
+width: 599px;
+height: 425px;
+object-fit: cover;
+}
+
+.texto-nosotros {
+max-width: 750px;
+margin-left: 20px;
+}
+
+.titulo-nosotros {
+font-family: "Alice-Regular", Helvetica;
+font-size: 32px;
+color: #ffffff;
+}
+
+.lista-nosotros {
+list-style: none;
+padding: 0;
+font-family: "Arvo-Regular", Helvetica;
+color: #42484c;
+}
+
+.lista-nosotros li {
+margin-bottom: 10px;
+}
+
+.servicios {
+padding: 20px;
+}
+
+.titulo-servicios {
+font-family: "Alice-Regular", Helvetica;
+font-size: 32px;
+color: #28578e;
+text-shadow: 0px 4px 4px #00000040;
+text-align: center;
+margin-bottom: 20px;
+}
+
+.galeria-de-iconos {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+justify-content: center;
+}
+
+.icono-servicio {
+width: 222px;
+height: 217px;
+object-fit: cover;
+}
+/* style del footer*/
+
+.footer {
+position: relative;
+width: 100%;
+height: 200px;
+background: linear-gradient(180deg, rgb(148.48, 175.49, 207.19) 49.5%, rgb(40.34, 87.28, 142.38) 100%);
+background-color: rgba(255, 255, 255, 1);
+}
+
+.footer .logo {
+position: absolute;
+width: 264px;
+height: 100px;
+top: 43px;
+left: 1054px;
+}
+
+.footer .overlap {
+position: relative;
+width: 260px;
+height: 100px;
+}
+
+.footer .overlap-group {
+position: absolute;
+width: 165px;
+height: 100px;
+top: 0;
+left: 0;
+}
+
+.footer .logoclinica {
+position: absolute;
+width: 100px;
+height: 100px;
+top: 0;
+left: 0;
+object-fit: cover;
+}
+
+.footer .text-wrapper,
+.footer .div,
+.footer .copyright,
+.footer .direccion-de-correo,
+.footer .correo,
+.footer .n-telefono,
+.footer .text-wrapper-2,
+.footer .domicilio,
+.footer .ubicaci-n,
+.footer .text-wrapper-3,
+.footer .logo-fb-simple,
+.footer .logo-twitter,
+.footer .logo-instagram { 
+color: #ffffff;
+white-space: nowrap;
+position: absolute;
+}
+
+.footer .text-wrapper {
+font-size: 24px;  
+width: 75px;
+top: 20px;
+left: 90px;
+}
+
+.footer .div {
+font-size: 32px; 
+width: 130px;
+top: 42px;
+left: 130px;
+}
+
+.footer .copyright {
+font-size: 18px;
+width: 607px;
+top: 165px;
+left: 398px;
+}
+
+.footer .direccion-de-correo {
+font-size: 18px; 
+top: 105px;
+left: 769px;
+}
+
+.footer .icon-outlined-other,
+.footer .UI-icon-phone-call,
+.footer .UI-icon-location,
+.footer .logo-fb-simple,
+.footer .logo-twitter,
+.footer .logo-instagram {
+position: absolute;
+width: 24px;
+height: 24px;
+}
+
+.footer .icon-outlined-other {
+top: 106px;
+left: 709px;
+}
+
+.footer .UI-icon-phone-call {
+top: 103px;
+left: 406px;
+}
+
+.footer .UI-icon-location {
+top: 106px;
+left: 72px;
+}
+
+.footer .logo-fb-simple {
+top: 159px;
+left: 1116px;
+}
+
+.footer .logo-twitter {
+top: 159px;
+left: 1172px;
+}
+
+.footer .logo-instagram {
+top: 159px;
+left: 1228px;
+}
+
+.footer.correo
+.footer.n-telefono
+.footer.text-wrapper-2
+.footer.domicilio
+.footer.ubicaci-n
+.footer.text-wrapper-3 {
+position: absolute;
+}
+
+.footer .correo {
+font-size: 20px; 
+top: 74px;
+left: 690px;
+text-shadow: 0px 4px 4px #00000040;
+}
+
+.footer .n-telefono {
+font-size: 18px;  
+top: 109px;
+left: 459px;
+}
+
+.footer .text-wrapper-2 {
+font-size: 20px; 
+top: 74px;
+left: 386px;
+}
+
+.footer .domicilio {
+font-size: 18px;
+width: 141px;
+top: 110px;
+left: 117px;
+}
+
+.footer .ubicaci-n {
+font-size: 20px;  
+top: 74px;
+left: 49px;
+}
+
+.footer .text-wrapper-3 {
+font-size: 32px;
+width: 275px;
+top: 18px;
+left: 49px;
+}
+/* style de confirmacion del turno*/
+body {
+  font-family: "Alice-Regular", Helvetica, sans-serif;
+  background: linear-gradient(180deg, rgb(157, 175, 191) 0%, rgb(240, 247, 253) 100%);
+}
+
+header .navbar {
+  background: linear-gradient(180deg, rgb(148, 175, 207) 49.5%, rgb(40, 87, 142) 100%);
+}
+
+header .navbar-brand {
+  color: #28578e;
+  font-size: 24px;
+}
+
+header .nav-link {
+  color: #fff !important;
+  font-size: 20px;
+}
+
+.registro-simple {
+  height: calc(100vh - 100px);
+}
+
+.card {
+  border-radius: 20px;
+  background-color: #d9d9d9;
+}
+
+.card-header {
+  background-color: transparent;
+  border-bottom: none;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.form-control {
+  border-radius: 10px;
+}
+.custom-input-height {
+height: 50px; /* Ajusta este valor según tus necesidades */
+line-height: 50px; /* Asegura que el texto esté centrado verticalmente */
+}
+/* global.css de footer*/
+/* @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+ */* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  height: 100%;
+}
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+/* styleguide.css de index*/
+
+:root {
+  --color-de-letras: rgba(54, 103, 148, 1);
+}
+
+body {
+  font-family: "Alice-Regular", Helvetica;
+}
+
+h2 {
+  font-family: "Alice-Regular", Helvetica;
+}
+
+p,
+span,
+li {
+  font-family: "Arvo-Regular", Helvetica;
+  color: var(--color-de-letras);
+}
